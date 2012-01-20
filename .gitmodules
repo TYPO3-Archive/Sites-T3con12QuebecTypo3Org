@@ -52,3 +52,6 @@
 [submodule "Packages/Application/Imagine"]
 	path = Packages/Application/Imagine
 	url = git://git.typo3.org/FLOW3/Packages/Imagine.git
+[submodule "Packages/Sites/TYPO3.T3con12QuebecTypo3Org"]
+	path = Packages/Sites/TYPO3.T3con12QuebecTypo3Org
+	url = git://git.typo3.org/FLOW3/Packages/TYPO3.T3con12QuebecTypo3Org.git
