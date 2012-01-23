@@ -33,7 +33,7 @@
 	url = git://git.typo3.org/FLOW3/Packages/TYPO3.MailForm.git
 [submodule "Packages/Application/TYPO3.SwiftMailer"]
 	path = Packages/Application/TYPO3.SwiftMailer
-	url = git://git.typo3.org/FLOW3/Packages/SwiftMailer.git
+	url = git://git.typo3.org/FLOW3/Packages/TYPO3.SwiftMailer.git
 [submodule "Packages/Application/TYPO3.TYPO3"]
 	path = Packages/Application/TYPO3.TYPO3
 	url = git://git.typo3.org/FLOW3/Packages/TYPO3.TYPO3.git
@@ -58,3 +58,6 @@
 [submodule "Packages/Plugins/TYPO3.Conference"]
 	path = Packages/Plugins/TYPO3.Conference
 	url = git://git.typo3.org/FLOW3/Packages/TYPO3.Conference.git
+[submodule "Packages/Plugins/TYPO3.MailForm"]
+	path = Packages/Plugins/TYPO3.MailForm
+	url = git://git.typo3.org/FLOW3/Packages/TYPO3.MailForm.git
