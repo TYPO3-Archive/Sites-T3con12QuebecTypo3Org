@@ -25,6 +25,12 @@
 	# of the website root.
 #	RewriteBase /
 
+	# fix ssl weirdness caused by IP reuse
+	RewriteCond %{HTTP_HOST} ^integration.t3con11-frankfurt.typo3.robertlemke.net$ [NC]
+	RewriteRule ^(.*)$ http://integration.t3con11-frankfurt.typo3.robertlemke.net/$1 [L,R=301]
+	RewriteCond %{HTTP_HOST} ^t3con11-frankfurt.typo3.org$ [NC]
+	RewriteRule ^(.*)$ http://t3con11-frankfurt.typo3.org/$1 [L,R=301]
+
 	# Stop rewrite processing no matter if a package resource, robots.txt etc. exists or not
 	RewriteRule ^(_Resources/Packages/|robots\.txt|favicon\.ico) - [L]
 
