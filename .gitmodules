@@ -61,3 +61,6 @@
 [submodule "Packages/Plugins/TYPO3.MailForm"]
 	path = Packages/Plugins/TYPO3.MailForm
 	url = git://git.typo3.org/FLOW3/Packages/TYPO3.MailForm.git
+[submodule "Packages/Application/TYPO3.Eel"]
+	path = Packages/Application/TYPO3.Eel
+	url = git://git.typo3.org/FLOW3/Packages/TYPO3.Eel.git
