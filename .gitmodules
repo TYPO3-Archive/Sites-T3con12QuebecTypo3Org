@@ -73,3 +73,6 @@
 [submodule "Packages/Application/TYPO3.Form"]
 	path = Packages/Application/TYPO3.Form
 	url = git://git.typo3.org/FLOW3/Packages/TYPO3.Form.git
+[submodule "Packages/Framework/Symfony.Component.DomCrawler"]
+	path = Packages/Framework/Symfony.Component.DomCrawler
+	url = git://git.typo3.org/FLOW3/Packages/Symfony.Component.DomCrawler.git
