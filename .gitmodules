@@ -64,3 +64,12 @@
 [submodule "Packages/Application/TYPO3.Eel"]
 	path = Packages/Application/TYPO3.Eel
 	url = git://git.typo3.org/FLOW3/Packages/TYPO3.Eel.git
+[submodule "Packages/Application/TYPO3.Setup"]
+	path = Packages/Application/TYPO3.Setup
+	url = git://git.typo3.org/FLOW3/Packages/TYPO3.Setup.git
+[submodule "Packages/Application/Twitter.Bootstrap"]
+	path = Packages/Application/Twitter.Bootstrap
+	url = git://git.typo3.org/FLOW3/Packages/Twitter.Bootstrap.git
+[submodule "Packages/Application/TYPO3.Form"]
+	path = Packages/Application/TYPO3.Form
+	url = git://git.typo3.org/FLOW3/Packages/TYPO3.Form.git
