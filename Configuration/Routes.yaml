@@ -8,6 +8,16 @@
 #                                                                        #
 
 ##
+# Conference subroutes
+
+-
+  name: 'Conference'
+  uriPattern: '<ConferenceSubroutes>'
+  subRoutes:
+    ConferenceSubroutes:
+      package: TYPO3.Conference
+
+##
 # TYPO3 subroutes
 
 -
